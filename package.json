@@ -1,10 +1,10 @@
 {
-  "homepage": "https://github.com/oceanryan/ConHut",
-  "name": "conhut",
+  "homepage": "https://github.com/fernandowinardi/conhutv1",
+  "name": "conhutv1",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@ckeditor/ckeditor5-react": "^3.0.1",
+    "@ckeditor/ckeditor5-react": "^3.0.2",
     "@date-io/date-fns": "^2.10.8",
     "@fortawesome/fontawesome-svg-core": "^1.2.34",
     "@fortawesome/free-solid-svg-icons": "^5.15.2",
