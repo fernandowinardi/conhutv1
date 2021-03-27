@@ -1,0 +1,27 @@
+import React, {useEffect, useState} from 'react';
+import NavBar from '../../components/NavBar/NavBar';
+import Axios from 'axios';
+import { useHistory } from 'react-router-dom';
+
+export default function AchivementPage() {
+    const history = useHistory();
+
+    const [role, GetUserRole] = useState('')
+
+    useEffect(() => {
+        Axios.get("https://conhut.herokuapp.com/getaccount").then((result) => {
+            if (result.data.loggedIn === true) {
+                GetUserRole(result.data.user[0].role)
+            }
+            else {
+                history.push("/")
+            }
+        });
+    }, []); // remove the , [] later on 
+    
+    return (
+        <div className="Achievement">
+            <NavBar/>
+        </div>
+    )
+}

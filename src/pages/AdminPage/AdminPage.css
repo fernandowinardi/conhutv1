@@ -1,0 +1,57 @@
+.admin-page {
+    text-align: center;
+}
+
+.adminAlign {
+    display: inline-block;
+    background-color: lightpink;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.adminRow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.tableRow {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+
+.all-table-btn {
+    width: 150px;
+    height: 30px;
+    margin-left: 20px;
+    background-color: darkorchid;
+    color: white;
+    border: none;
+}
+
+.all-table-btn:hover {
+    cursor: pointer;
+}
+
+.user-table-display,
+.tags-table-display,
+.like-table-display,
+.confession-table-display,
+.replies-table-display,
+.comment-table-display {
+    display: inline-block;
+    text-align: center;
+}
+
+.dcsv-btn {
+    background-color: transparent;
+    font-size: 18px;
+    border: none;
+}
+
+.dcsv-btn:hover {
+    cursor: pointer;
+    color: dodgerblue;
+}

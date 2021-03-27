@@ -1,0 +1,25 @@
+h2 {
+    margin-top: 0;
+}
+
+.draftContainer {
+    padding-top: 20px;
+    margin-left: 230px;
+}
+
+
+
+.clickable-box{
+    border: 1px solid;
+    width: 85%;
+    margin-bottom: 5px;
+}
+
+.clickable-box:hover {
+    cursor: pointer;
+}
+
+.draftTitle {
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

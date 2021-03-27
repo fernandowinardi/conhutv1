@@ -1,0 +1,58 @@
+@media screen and (min-width: 1450px){
+    h3 {
+        font-weight: bolder;
+    }
+
+    .right-side-nav {
+        list-style: none;
+        background-color: #C158F2;
+        width: 250px;
+        min-height: 100vh;
+        padding-top: 10px;
+        position: fixed;
+        top: 0;
+        right: 0;
+        border-left: 2px solid;
+        text-align: center;
+    }
+
+    .trendingTags {
+        height: auto;
+        background-color: rgb(193, 105, 236);
+        width: 200px;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, 0);
+        border-radius: 20px;
+    }
+
+    .tagButtons {
+        width: 180px;
+        background-color: transparent;
+        text-align: center;
+        outline: none;
+        border: none;
+        font-size: 18px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    .tagRow {
+        padding-bottom: 10px;
+    }
+
+    .tagRow:hover {
+        color:lightgrey;
+        cursor: pointer;
+    }
+
+    .numConfession {
+        font-weight: lighter;
+        font-size: 14px;
+        color: rgb(66, 66, 66);
+    }
+
+    hr {
+        border-bottom: 1px grey;
+    }
+
+}

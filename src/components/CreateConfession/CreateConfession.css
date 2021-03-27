@@ -1,0 +1,70 @@
+.createConfession {
+    width: 1000px;
+    padding: 20px;
+}
+
+.label {
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.TitleField {
+    width: 400px;
+    height: 30px;
+    font-size: 18px;
+}
+
+.TitleField::placeholder {
+    font-size: 18px;
+}
+
+.ck-editor__editable {
+    height: 150px;
+    width: 700px;
+}
+
+.LocationField {
+    width: 400px;
+    height: 30px;
+    font-size: 18px;
+}
+
+.LocationField::placeholder {
+    font-size: 18px;
+}
+
+.buttons {
+    display: grid;
+    justify-items: flex-start;
+}
+
+.SelectField {
+    width: 700px;
+}
+
+.DraftBtn {
+    grid-column: 1;
+    grid-row: 1;
+    height: 30px;
+    width: 150px;
+    font-size: 16px;
+    border: 1px solid;
+}
+
+.PublishBtn {
+    grid-column: 2;
+    grid-row: 1;
+    height: 32px;
+    width: 150px;
+    font-size: 16px;
+    background-color: darkorchid;
+    color: white;
+    border: 1px solid;
+}
+
+.DraftBtn:hover,
+.PublishBtn:hover {
+    cursor: pointer;
+}
+
